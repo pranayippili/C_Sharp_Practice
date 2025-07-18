@@ -1,0 +1,15 @@
+C:\Users\prana\Desktop\Wipro\CSharp\CSharpExpressions\bin\Debug\net8.0\CSharpExpressions.exe
+C:\Users\prana\Desktop\Wipro\CSharp\CSharpExpressions\bin\Debug\net8.0\CSharpExpressions.deps.json
+C:\Users\prana\Desktop\Wipro\CSharp\CSharpExpressions\bin\Debug\net8.0\CSharpExpressions.runtimeconfig.json
+C:\Users\prana\Desktop\Wipro\CSharp\CSharpExpressions\bin\Debug\net8.0\CSharpExpressions.dll
+C:\Users\prana\Desktop\Wipro\CSharp\CSharpExpressions\bin\Debug\net8.0\CSharpExpressions.pdb
+C:\Users\prana\Desktop\Wipro\CSharp\CSharpExpressions\obj\Debug\net8.0\CSharpExpressions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\prana\Desktop\Wipro\CSharp\CSharpExpressions\obj\Debug\net8.0\CSharpExpressions.AssemblyInfoInputs.cache
+C:\Users\prana\Desktop\Wipro\CSharp\CSharpExpressions\obj\Debug\net8.0\CSharpExpressions.AssemblyInfo.cs
+C:\Users\prana\Desktop\Wipro\CSharp\CSharpExpressions\obj\Debug\net8.0\CSharpExpressions.csproj.CoreCompileInputs.cache
+C:\Users\prana\Desktop\Wipro\CSharp\CSharpExpressions\obj\Debug\net8.0\CSharpExpressions.sourcelink.json
+C:\Users\prana\Desktop\Wipro\CSharp\CSharpExpressions\obj\Debug\net8.0\CSharpExpressions.dll
+C:\Users\prana\Desktop\Wipro\CSharp\CSharpExpressions\obj\Debug\net8.0\refint\CSharpExpressions.dll
+C:\Users\prana\Desktop\Wipro\CSharp\CSharpExpressions\obj\Debug\net8.0\CSharpExpressions.pdb
+C:\Users\prana\Desktop\Wipro\CSharp\CSharpExpressions\obj\Debug\net8.0\CSharpExpressions.genruntimeconfig.cache
+C:\Users\prana\Desktop\Wipro\CSharp\CSharpExpressions\obj\Debug\net8.0\ref\CSharpExpressions.dll
