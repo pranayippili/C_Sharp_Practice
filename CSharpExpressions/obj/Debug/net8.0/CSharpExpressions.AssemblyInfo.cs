@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CSharpExpressions")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+94ac022f7acf1d3b80d6bfda63ca621cae4ffbae")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+406d59ce19896d92d1f64ad7e8b36b56006119c9")]
 [assembly: System.Reflection.AssemblyProductAttribute("CSharpExpressions")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CSharpExpressions")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,4 +1,5 @@
 ﻿using CSharpExpressions.Models;
+using System.Linq.Expressions;
 
 namespace CSharpExpressions
 {
@@ -49,7 +50,61 @@ namespace CSharpExpressions
             Console.WriteLine($"Circle area with radius 3: {calc.CircleArea(3)}");
             Console.WriteLine($"Calculator type: {calc.Type}");
 
+			// 3. ANONYMOUS METHODS (older syntax)
+
+            Console.WriteLine("\n\n3. ANONYMOUS METHODS (Legacy)");
+            Console.WriteLine("============================");
+
+            Func<int, int> squareAnonymous = delegate (int x) { return x * x; };
+            Console.WriteLine($"Square of 6 using anonymous method: {squareAnonymous(6)}");
+
+            Action<string> printAnonymous = delegate (string message)
+            {
+                Console.WriteLine($"Anonymous message: {message}");
+			};
+            printAnonymous("Hello!");
+
+
+			// 4.LINQ EXPRESSIONS
+
+			Console.WriteLine("\n\n4. LINQ EXPRESSIONS");
+			Console.WriteLine("===================");
+
+            var evenNumbers = numbers.Where(x => x % 2 == 0).ToList();
+            Console.WriteLine($"Even numbers: [{string.Join(", ", evenNumbers)}]");
+
+            var squaredNumbers = numbers.Select(x => x * x).ToList();
+            Console.WriteLine($"Squared numbers: [{string.Join(", ", squaredNumbers)}]");
+
+            var goodStudents = students
+                .Where(s => s.GPA > 3.5m)
+                .OrderBy(s => s.Name)
+                .Select(s => new {s.Name, s.GPA})
+                .ToList();
+
+            Console.WriteLine("Good students (GPA > 3.5):");
+            goodStudents.ForEach(s => Console.WriteLine($" {s.Name, -15}: {s.GPA:F2}"));
+
+            //Grouping
+            var studentsByMajor = students
+                .GroupBy(s => s.Major)
+                .Select(g => new { Major = g.Key, Count = g.Count() })
+                .ToList();
+
+            Console.WriteLine("\nStudents by Major:");
+            studentsByMajor.ForEach(g => Console.WriteLine($" {g.Major}: {g.Count} students"));
+
+			// 5. EXPRESSION TREES (Advanced)
+            Console.WriteLine("\n\n5. EXPRESSION TREES");
+            Console.WriteLine("===================");
+
+            Expression<Func<int, bool>> isPositiveExpr = x => x > 0;
+            Console.WriteLine($"Expression: {isPositiveExpr}");
+            Console.WriteLine($"Expression body: {isPositiveExpr.Body}");
+            Console.WriteLine($"Expression parameters: {string.Join(",",isPositiveExpr.Parameters)}");
+
+
 
 		}
-    }
+	}
 }
