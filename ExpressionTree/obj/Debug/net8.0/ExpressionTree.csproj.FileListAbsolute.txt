@@ -1,0 +1,15 @@
+C:\Users\prana\Desktop\Wipro\CSharp\ExpressionTree\bin\Debug\net8.0\ExpressionTree.exe
+C:\Users\prana\Desktop\Wipro\CSharp\ExpressionTree\bin\Debug\net8.0\ExpressionTree.deps.json
+C:\Users\prana\Desktop\Wipro\CSharp\ExpressionTree\bin\Debug\net8.0\ExpressionTree.runtimeconfig.json
+C:\Users\prana\Desktop\Wipro\CSharp\ExpressionTree\bin\Debug\net8.0\ExpressionTree.dll
+C:\Users\prana\Desktop\Wipro\CSharp\ExpressionTree\bin\Debug\net8.0\ExpressionTree.pdb
+C:\Users\prana\Desktop\Wipro\CSharp\ExpressionTree\obj\Debug\net8.0\ExpressionTree.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\prana\Desktop\Wipro\CSharp\ExpressionTree\obj\Debug\net8.0\ExpressionTree.AssemblyInfoInputs.cache
+C:\Users\prana\Desktop\Wipro\CSharp\ExpressionTree\obj\Debug\net8.0\ExpressionTree.AssemblyInfo.cs
+C:\Users\prana\Desktop\Wipro\CSharp\ExpressionTree\obj\Debug\net8.0\ExpressionTree.csproj.CoreCompileInputs.cache
+C:\Users\prana\Desktop\Wipro\CSharp\ExpressionTree\obj\Debug\net8.0\ExpressionTree.sourcelink.json
+C:\Users\prana\Desktop\Wipro\CSharp\ExpressionTree\obj\Debug\net8.0\ExpressionTree.dll
+C:\Users\prana\Desktop\Wipro\CSharp\ExpressionTree\obj\Debug\net8.0\refint\ExpressionTree.dll
+C:\Users\prana\Desktop\Wipro\CSharp\ExpressionTree\obj\Debug\net8.0\ExpressionTree.pdb
+C:\Users\prana\Desktop\Wipro\CSharp\ExpressionTree\obj\Debug\net8.0\ExpressionTree.genruntimeconfig.cache
+C:\Users\prana\Desktop\Wipro\CSharp\ExpressionTree\obj\Debug\net8.0\ref\ExpressionTree.dll

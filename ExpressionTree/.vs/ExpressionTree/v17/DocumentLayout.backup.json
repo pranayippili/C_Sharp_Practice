@@ -1,0 +1,96 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\prana\\Desktop\\Wipro\\CSharp\\ExpressionTree\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{861E560D-B646-4A39-9426-E3C6222B4821}|ExpressionTree.csproj|c:\\users\\prana\\desktop\\wipro\\csharp\\expressiontree\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{861E560D-B646-4A39-9426-E3C6222B4821}|ExpressionTree.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{861E560D-B646-4A39-9426-E3C6222B4821}|ExpressionTree.csproj|c:\\users\\prana\\desktop\\wipro\\csharp\\expressiontree\\models\\filterrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{861E560D-B646-4A39-9426-E3C6222B4821}|ExpressionTree.csproj|solutionrelative:models\\filterrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{861E560D-B646-4A39-9426-E3C6222B4821}|ExpressionTree.csproj|c:\\users\\prana\\desktop\\wipro\\csharp\\expressiontree\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{861E560D-B646-4A39-9426-E3C6222B4821}|ExpressionTree.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{861E560D-B646-4A39-9426-E3C6222B4821}|ExpressionTree.csproj|c:\\users\\prana\\desktop\\wipro\\csharp\\expressiontree\\expressiontree.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{861E560D-B646-4A39-9426-E3C6222B4821}|ExpressionTree.csproj|solutionrelative:expressiontree.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ExpressionTree",
+              "DocumentMoniker": "C:\\Users\\prana\\Desktop\\Wipro\\CSharp\\ExpressionTree\\ExpressionTree.csproj",
+              "RelativeDocumentMoniker": "ExpressionTree.csproj",
+              "ToolTip": "C:\\Users\\prana\\Desktop\\Wipro\\CSharp\\ExpressionTree\\ExpressionTree.csproj",
+              "RelativeToolTip": "ExpressionTree.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-20T16:18:37.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FilterRule.cs",
+              "DocumentMoniker": "C:\\Users\\prana\\Desktop\\Wipro\\CSharp\\ExpressionTree\\Models\\FilterRule.cs",
+              "RelativeDocumentMoniker": "Models\\FilterRule.cs",
+              "ToolTip": "C:\\Users\\prana\\Desktop\\Wipro\\CSharp\\ExpressionTree\\Models\\FilterRule.cs",
+              "RelativeToolTip": "Models\\FilterRule.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAiwAwAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T16:17:29.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\prana\\Desktop\\Wipro\\CSharp\\ExpressionTree\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\prana\\Desktop\\Wipro\\CSharp\\ExpressionTree\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T16:17:16.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\prana\\Desktop\\Wipro\\CSharp\\ExpressionTree\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\prana\\Desktop\\Wipro\\CSharp\\ExpressionTree\\Program.cs*",
+              "RelativeToolTip": "Program.cs*",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAIwB4AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T16:15:52.131Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
