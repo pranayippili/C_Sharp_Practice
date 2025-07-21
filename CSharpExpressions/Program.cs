@@ -103,6 +103,19 @@ namespace CSharpExpressions
             Console.WriteLine($"Expression body: {isPositiveExpr.Body}");
             Console.WriteLine($"Expression parameters: {string.Join(",",isPositiveExpr.Parameters)}");
 
+            var compiledExpr = isPositiveExpr.Compile();
+            Console.WriteLine($"Is 10 positive? {compiledExpr(10)}");
+
+            var parameter = Expression.Parameter(typeof(int), "x");
+            var constant = Expression.Constant(10);
+            var greaterThan = Expression.GreaterThan(parameter, constant);
+            var lambda = Expression.Lambda<Func<int, bool>>(greaterThan, parameter);
+
+            Console.WriteLine($"Generated Expression: {lambda}");
+            var compiledGeneratedExpr = lambda.Compile();
+            Console.WriteLine($"Is 15 > 10? {compiledGeneratedExpr(15)}");
+
+
 
 
 		}
