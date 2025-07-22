@@ -115,6 +115,28 @@ namespace CSharpExpressions
             var compiledGeneratedExpr = lambda.Compile();
             Console.WriteLine($"Is 15 > 10? {compiledGeneratedExpr(15)}");
 
+			// 6. PRACTICAL EXAMPLES
+            Console.WriteLine("\n\n6. PRACTICAL EXAMPLES");
+            Console.WriteLine("===================");
+
+            //Event handling with expressions
+            var button = new Button();
+            button.Click += () => Console.WriteLine("Button clicked!");
+            button.Click += () => Console.WriteLine("Logging click event...");
+            button.SimulateClick();
+
+            // Functional programming patterns
+            Console.WriteLine("\n--- Functinal Programming ---");
+
+            var doubleNumbers = numbers.Select(x => x * 2).ToList();
+            Console.WriteLine($"Doubled numbers: [{string.Join(", ", doubleNumbers)}]");
+
+            var bigNumbers = numbers.Where(x => x > 5).ToList();
+            Console.WriteLine($"Numbers greater than 5: [{string.Join(", ", bigNumbers)}]");
+
+            var sum = numbers.Aggregate((acc, x) => acc + x);
+            Console.WriteLine($"Sum of numbers: {sum}");
+
 
 
 
