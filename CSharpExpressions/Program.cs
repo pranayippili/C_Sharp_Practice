@@ -137,6 +137,15 @@ namespace CSharpExpressions
             var sum = numbers.Aggregate((acc, x) => acc + x);
             Console.WriteLine($"Sum of numbers: {sum}");
 
+			// 8. ADVANCED EXPRESSION PATTERNS
+            Console.WriteLine("\n\n8. ADVANCED EXPRESSION PATTERNS");
+            Console.WriteLine("===================");
+
+            // Curring (returning a function that takes another function)
+            Func<int, Func<int, int>> multiply = x => y => x * y;
+            var multiplyBy2 = multiply(2);
+            Console.WriteLine($"Multiply by 2: {multiplyBy2(5)}");
+
 
 
 
