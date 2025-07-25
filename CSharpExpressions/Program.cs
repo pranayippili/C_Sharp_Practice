@@ -146,9 +146,27 @@ namespace CSharpExpressions
             var multiplyBy2 = multiply(2);
             Console.WriteLine($"Multiply by 2: {multiplyBy2(5)}");
 
+			// Higher-order functions
+            Func<int, int> square = x => x * x;
+            Func<int, int> cube = x=> x * x * x;
 
+            var results = ApplyFunction( new[] { 1, 2, 3, 4, 5 }, square);
+            Console.WriteLine($"Squares: [{string.Join(", ", results)}]");
+
+            // Predicate Composition
+            Predicate<int> isPositive = x => x > 0;
+            Predicate<int> isSmall = x => x < 10;
+            Predicate<int> IsPositiveAndSmall = x => isPositive(x) && isSmall(x);
+
+            var validNumbers = numbers.FindAll(IsPositiveAndSmall);
+            Console.WriteLine($"Positive and small: [{string.Join(", ", validNumbers)}]");
 
 
 		}
+
+		static int[] ApplyFunction(int[] numbers, Func<int, int> funtion)
+        {
+            return numbers.Select(funtion).ToArray();
+        }
 	}
 }
