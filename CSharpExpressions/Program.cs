@@ -161,6 +161,43 @@ namespace CSharpExpressions
             var validNumbers = numbers.FindAll(IsPositiveAndSmall);
             Console.WriteLine($"Positive and small: [{string.Join(", ", validNumbers)}]");
 
+			// 9. PERFORMANCE CONSIDERATIONS
+			Console.WriteLine("\n\n9. PERFORMANCE CONSIDERATIONS");
+			Console.WriteLine("=============================");
+
+			// Delegate vs Expression compilation
+			var stopwatch = System.Diagnostics.Stopwatch.StartNew();
+
+			// Regular delegate (faster)
+			Func<int, bool> fastPredicate = x => x > 5;
+			for (int i = 0; i < 1000000; i++)
+			{
+				fastPredicate(i);
+			}
+			stopwatch.Stop();
+			Console.WriteLine($"Regular delegate: {stopwatch.ElapsedMilliseconds}ms");
+
+			// Expression tree (slower due to compilation)
+			stopwatch.Restart();
+			Expression<Func<int, bool>> slowExpression = x => x > 5;
+			var compiledSlow = slowExpression.Compile();
+			for (int i = 0; i < 1000000; i++)
+			{
+				compiledSlow(i);
+			}
+			stopwatch.Stop();
+			Console.WriteLine($"Expression tree: {stopwatch.ElapsedMilliseconds}ms");
+
+			Console.WriteLine("\n=== Summary ===");
+			Console.WriteLine("Lambda expressions: x => x * 2");
+			Console.WriteLine("Anonymous methods: delegate(int x) { return x * 2; }");
+			Console.WriteLine("Expression trees: Expression<Func<int, int>> expr = x => x * 2");
+			Console.WriteLine("LINQ: collection.Where(x => x > 5).Select(x => x * 2)");
+
+			Console.WriteLine("\nPress any key to exit...");
+			Console.ReadKey();
+
+
 
 		}
 
