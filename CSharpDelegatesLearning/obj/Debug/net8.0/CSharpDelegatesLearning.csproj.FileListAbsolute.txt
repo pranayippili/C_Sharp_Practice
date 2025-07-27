@@ -1,0 +1,15 @@
+C:\Users\prana\Desktop\Wipro\CSharp\CSharpDelegatesLearning\bin\Debug\net8.0\CSharpDelegatesLearning.exe
+C:\Users\prana\Desktop\Wipro\CSharp\CSharpDelegatesLearning\bin\Debug\net8.0\CSharpDelegatesLearning.deps.json
+C:\Users\prana\Desktop\Wipro\CSharp\CSharpDelegatesLearning\bin\Debug\net8.0\CSharpDelegatesLearning.runtimeconfig.json
+C:\Users\prana\Desktop\Wipro\CSharp\CSharpDelegatesLearning\bin\Debug\net8.0\CSharpDelegatesLearning.dll
+C:\Users\prana\Desktop\Wipro\CSharp\CSharpDelegatesLearning\bin\Debug\net8.0\CSharpDelegatesLearning.pdb
+C:\Users\prana\Desktop\Wipro\CSharp\CSharpDelegatesLearning\obj\Debug\net8.0\CSharpDelegatesLearning.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\prana\Desktop\Wipro\CSharp\CSharpDelegatesLearning\obj\Debug\net8.0\CSharpDelegatesLearning.AssemblyInfoInputs.cache
+C:\Users\prana\Desktop\Wipro\CSharp\CSharpDelegatesLearning\obj\Debug\net8.0\CSharpDelegatesLearning.AssemblyInfo.cs
+C:\Users\prana\Desktop\Wipro\CSharp\CSharpDelegatesLearning\obj\Debug\net8.0\CSharpDelegatesLearning.csproj.CoreCompileInputs.cache
+C:\Users\prana\Desktop\Wipro\CSharp\CSharpDelegatesLearning\obj\Debug\net8.0\CSharpDelegatesLearning.sourcelink.json
+C:\Users\prana\Desktop\Wipro\CSharp\CSharpDelegatesLearning\obj\Debug\net8.0\CSharpDelegatesLearning.dll
+C:\Users\prana\Desktop\Wipro\CSharp\CSharpDelegatesLearning\obj\Debug\net8.0\refint\CSharpDelegatesLearning.dll
+C:\Users\prana\Desktop\Wipro\CSharp\CSharpDelegatesLearning\obj\Debug\net8.0\CSharpDelegatesLearning.pdb
+C:\Users\prana\Desktop\Wipro\CSharp\CSharpDelegatesLearning\obj\Debug\net8.0\CSharpDelegatesLearning.genruntimeconfig.cache
+C:\Users\prana\Desktop\Wipro\CSharp\CSharpDelegatesLearning\obj\Debug\net8.0\ref\CSharpDelegatesLearning.dll
