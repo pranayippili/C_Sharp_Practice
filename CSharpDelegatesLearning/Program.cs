@@ -13,7 +13,7 @@ namespace CSharpDelegatesLearning
 			try
 			{
 				BasicDelegates.RunExamples();
-				//MulticastDelegates.RunExamples();
+				MulticastDelegates.RunExamples();
 				//BuiltInDelegates.RunExamples();
 				//EventHandling.RunExamples();
 				//CallbackPatterns.RunExamples();
