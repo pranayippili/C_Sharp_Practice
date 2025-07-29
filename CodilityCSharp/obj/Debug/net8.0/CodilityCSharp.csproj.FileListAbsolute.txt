@@ -1,0 +1,15 @@
+C:\Users\prana\Desktop\Wipro\CSharp\CodilityCSharp\bin\Debug\net8.0\CodilityCSharp.exe
+C:\Users\prana\Desktop\Wipro\CSharp\CodilityCSharp\bin\Debug\net8.0\CodilityCSharp.deps.json
+C:\Users\prana\Desktop\Wipro\CSharp\CodilityCSharp\bin\Debug\net8.0\CodilityCSharp.runtimeconfig.json
+C:\Users\prana\Desktop\Wipro\CSharp\CodilityCSharp\bin\Debug\net8.0\CodilityCSharp.dll
+C:\Users\prana\Desktop\Wipro\CSharp\CodilityCSharp\bin\Debug\net8.0\CodilityCSharp.pdb
+C:\Users\prana\Desktop\Wipro\CSharp\CodilityCSharp\obj\Debug\net8.0\CodilityCSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\prana\Desktop\Wipro\CSharp\CodilityCSharp\obj\Debug\net8.0\CodilityCSharp.AssemblyInfoInputs.cache
+C:\Users\prana\Desktop\Wipro\CSharp\CodilityCSharp\obj\Debug\net8.0\CodilityCSharp.AssemblyInfo.cs
+C:\Users\prana\Desktop\Wipro\CSharp\CodilityCSharp\obj\Debug\net8.0\CodilityCSharp.csproj.CoreCompileInputs.cache
+C:\Users\prana\Desktop\Wipro\CSharp\CodilityCSharp\obj\Debug\net8.0\CodilityCSharp.sourcelink.json
+C:\Users\prana\Desktop\Wipro\CSharp\CodilityCSharp\obj\Debug\net8.0\CodilityCSharp.dll
+C:\Users\prana\Desktop\Wipro\CSharp\CodilityCSharp\obj\Debug\net8.0\refint\CodilityCSharp.dll
+C:\Users\prana\Desktop\Wipro\CSharp\CodilityCSharp\obj\Debug\net8.0\CodilityCSharp.pdb
+C:\Users\prana\Desktop\Wipro\CSharp\CodilityCSharp\obj\Debug\net8.0\CodilityCSharp.genruntimeconfig.cache
+C:\Users\prana\Desktop\Wipro\CSharp\CodilityCSharp\obj\Debug\net8.0\ref\CodilityCSharp.dll
