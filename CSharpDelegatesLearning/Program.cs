@@ -14,7 +14,7 @@ namespace CSharpDelegatesLearning
 			{
 				BasicDelegates.RunExamples();
 				MulticastDelegates.RunExamples();
-				//BuiltInDelegates.RunExamples();
+				BuiltInDelegates.RunExamples();
 				//EventHandling.RunExamples();
 				//CallbackPatterns.RunExamples();
 				//AdvancedDelegates.RunExamples();
