@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{C661811B-68FC-413A-9378-FCF63873724D}|CSharpDelegatesLearning.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{C661811B-68FC-413A-9378-FCF63873724D}|CSharpDelegatesLearning.csproj|c:\\users\\prana\\desktop\\wipro\\csharp\\csharpdelegateslearning\\examples\\eventhandling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C661811B-68FC-413A-9378-FCF63873724D}|CSharpDelegatesLearning.csproj|solutionrelative:examples\\eventhandling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C661811B-68FC-413A-9378-FCF63873724D}|CSharpDelegatesLearning.csproj|c:\\users\\prana\\desktop\\wipro\\csharp\\csharpdelegateslearning\\examples\\builtindelegates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C661811B-68FC-413A-9378-FCF63873724D}|CSharpDelegatesLearning.csproj|solutionrelative:examples\\builtindelegates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -30,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -43,6 +47,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "EventHandling.cs",
+              "DocumentMoniker": "C:\\Users\\prana\\Desktop\\Wipro\\CSharp\\CSharpDelegatesLearning\\Examples\\EventHandling.cs",
+              "RelativeDocumentMoniker": "Examples\\EventHandling.cs",
+              "ToolTip": "C:\\Users\\prana\\Desktop\\Wipro\\CSharp\\CSharpDelegatesLearning\\Examples\\EventHandling.cs",
+              "RelativeToolTip": "Examples\\EventHandling.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAADkAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-31T17:47:34.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "BuiltInDelegates.cs",
               "DocumentMoniker": "C:\\Users\\prana\\Desktop\\Wipro\\CSharp\\CSharpDelegatesLearning\\Examples\\BuiltInDelegates.cs",
               "RelativeDocumentMoniker": "Examples\\BuiltInDelegates.cs",
@@ -50,12 +67,11 @@
               "RelativeToolTip": "Examples\\BuiltInDelegates.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAxwF0AAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T16:48:33.27Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-30T16:48:33.27Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "MulticastDelegates.cs",
               "DocumentMoniker": "C:\\Users\\prana\\Desktop\\Wipro\\CSharp\\CSharpDelegatesLearning\\Examples\\MulticastDelegates.cs",
               "RelativeDocumentMoniker": "Examples\\MulticastDelegates.cs",
@@ -67,7 +83,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "BasicDelegates.cs",
               "DocumentMoniker": "C:\\Users\\prana\\Desktop\\Wipro\\CSharp\\CSharpDelegatesLearning\\Examples\\BasicDelegates.cs",
               "RelativeDocumentMoniker": "Examples\\BasicDelegates.cs",
@@ -75,12 +91,11 @@
               "RelativeToolTip": "Examples\\BasicDelegates.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAQwBsAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T17:59:13.937Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-27T17:59:13.937Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "CSharpDelegatesLearning.csproj",
               "DocumentMoniker": "C:\\Users\\prana\\Desktop\\Wipro\\CSharp\\CSharpDelegatesLearning\\CSharpDelegatesLearning.csproj",
               "RelativeDocumentMoniker": "CSharpDelegatesLearning.csproj",
@@ -88,8 +103,7 @@
               "RelativeToolTip": "CSharpDelegatesLearning.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-07-27T17:57:15.667Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-27T17:57:15.667Z"
             },
             {
               "$type": "Document",
@@ -99,7 +113,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\prana\\Desktop\\Wipro\\CSharp\\CSharpDelegatesLearning\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBAAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBEAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-27T17:56:14.877Z",
               "EditorCaption": ""
