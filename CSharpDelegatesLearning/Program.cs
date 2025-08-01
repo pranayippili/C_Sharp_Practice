@@ -16,7 +16,7 @@ namespace CSharpDelegatesLearning
 				MulticastDelegates.RunExamples();
 				BuiltInDelegates.RunExamples();
 				EventHandling.RunExamples();
-				//CallbackPatterns.RunExamples();
+				CallbackPatterns.RunExamples();
 				//AdvancedDelegates.RunExamples();
 			}
 			catch (Exception ex)
