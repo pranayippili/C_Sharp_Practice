@@ -1,0 +1,6 @@
+@LinkedInAPI_HostAddress = http://localhost:5084
+
+GET {{LinkedInAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

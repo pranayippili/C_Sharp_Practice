@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ExpressionTree")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1209364b6df0b85da18ef2e649456324722265a3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+069994ba0f7e57ec9638e17c85095114d7230769")]
 [assembly: System.Reflection.AssemblyProductAttribute("ExpressionTree")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ExpressionTree")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

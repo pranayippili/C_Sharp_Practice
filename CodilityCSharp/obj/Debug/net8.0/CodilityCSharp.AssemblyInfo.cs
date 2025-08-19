@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CodilityCSharp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b395792737c57f11ffef3313b86b0b70dcd59cb6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+069994ba0f7e57ec9638e17c85095114d7230769")]
 [assembly: System.Reflection.AssemblyProductAttribute("CodilityCSharp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CodilityCSharp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
