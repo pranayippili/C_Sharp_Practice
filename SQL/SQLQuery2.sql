@@ -164,3 +164,89 @@ select * from game;
 
 select g.id, s.name, g.runs from game g join sportsman s on g.id = s.id 
 where runs = ( select Max(runs) from game where runs < (select Max(runs) from game ));
+
+-- Q5) You are scheduling hockey events across the city. You have a database with the table 
+-- 'scores'(player Id.event. Id.is participated goals) containing information regarding the player's 
+-- id, a flag for goals scored or not, 0 meaning that the player did not score a goal and 1 meaning 
+-- that the player scored a goal for each event denoted by event id.For each event find the number 
+-- of players who scored a goal and number of players who did not score a goal for that event id 
+-- and goal flag. The output must be sorted in increasing order of event_id, goal.
+
+/* Create scores table */
+CREATE TABLE scores (
+    player_id INT NOT NULL,
+    event_id INT NOT NULL,
+    is_participated BIT NOT NULL,  -- 1 = participated, 0 = did not participate
+    goals BIT NOT NULL             -- 1 = scored goal, 0 = did not score goal
+);
+
+
+/* Insert sample data into scores */
+INSERT INTO scores (player_id, event_id, is_participated, goals) VALUES
+(1, 101, 1, 1), -- Player 1 scored in event 101
+(2, 101, 1, 0), -- Player 2 did not score in event 101
+(3, 101, 1, 1), -- Player 3 scored in event 101
+(4, 101, 1, 0), -- Player 4 did not score in event 101
+(1, 102, 1, 0), -- Player 1 did not score in event 102
+(2, 102, 1, 1), -- Player 2 scored in event 102
+(3, 102, 1, 0), -- Player 3 did not score in event 102
+(5, 103, 1, 1); -- Player 5 scored in event 103
+
+truncate table scores;
+
+select * from scores;
+
+INSERT INTO scores (player_id, event_id, is_participated, goals) VALUES
+-- Event 1
+(101, 1, 1, 1),  -- Player 101 participated and scored
+(102, 1, 1, 0),  -- Player 102 participated but didn't score
+(103, 1, 1, 1),  -- Player 103 participated and scored
+(104, 1, 1, 0),  -- Player 104 participated but didn't score
+(105, 1, 1, 0),  -- Player 105 participated but didn't score
+
+-- Event 2
+(101, 2, 1, 0),  -- Player 101 participated but didn't score
+(102, 2, 1, 1),  -- Player 102 participated and scored
+(106, 2, 1, 1),  -- Player 106 participated and scored
+(107, 2, 1, 1),  -- Player 107 participated and scored
+(108, 2, 1, 0),  -- Player 108 participated but didn't score
+
+-- Event 3
+(103, 3, 1, 1),  -- Player 103 participated and scored
+(104, 3, 1, 0),  -- Player 104 participated but didn't score
+(109, 3, 1, 0),  -- Player 109 participated but didn't score
+(110, 3, 1, 0),  -- Player 110 participated but didn't score
+
+-- Event 4
+(105, 4, 1, 1),  -- Player 105 participated and scored
+(106, 4, 1, 1),  -- Player 106 participated and scored
+(107, 4, 1, 1),  -- Player 107 participated and scored
+(108, 4, 1, 1),  -- Player 108 participated and scored
+(111, 4, 1, 0),  -- Player 111 participated but didn't score
+(112, 4, 1, 0);  -- Player 112 participated but didn't score
+
+select event_id, goals, count(player_id) as player_count from scores 
+group by event_id, goals 
+order by event_id asc, goals asc;
+
+select event_id, goals from scores group by event_id, goals;
+
+--Q6) A website owner has the table 'user' (name, id, dob). The date of birth (dob) field has been 
+--left empty in some places. Write a query to alter the table schema to avoid this for new entries.
+
+/* Create user table with dob allowing NULL initially */
+CREATE TABLE [user] (
+    name VARCHAR(50) NOT NULL,
+    id INT PRIMARY KEY,
+    dob DATE
+);
+
+/* Insert sample data with some NULL dob values */
+INSERT INTO [user] (name, id, dob) VALUES
+('Alice', 1, '1990-05-15'),
+('Bob', 2, NULL),
+('Charlie', 3, '1985-10-20'),
+('Diana', 4, NULL);
+select * from [user]
+alter table [user]
+update dob date is not null;
