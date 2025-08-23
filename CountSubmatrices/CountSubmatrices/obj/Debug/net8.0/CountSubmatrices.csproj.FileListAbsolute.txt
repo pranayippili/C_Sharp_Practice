@@ -1,0 +1,15 @@
+C:\Users\prana\Desktop\Wipro\CSharp\CountSubmatrices\CountSubmatrices\bin\Debug\net8.0\CountSubmatrices.exe
+C:\Users\prana\Desktop\Wipro\CSharp\CountSubmatrices\CountSubmatrices\bin\Debug\net8.0\CountSubmatrices.deps.json
+C:\Users\prana\Desktop\Wipro\CSharp\CountSubmatrices\CountSubmatrices\bin\Debug\net8.0\CountSubmatrices.runtimeconfig.json
+C:\Users\prana\Desktop\Wipro\CSharp\CountSubmatrices\CountSubmatrices\bin\Debug\net8.0\CountSubmatrices.dll
+C:\Users\prana\Desktop\Wipro\CSharp\CountSubmatrices\CountSubmatrices\bin\Debug\net8.0\CountSubmatrices.pdb
+C:\Users\prana\Desktop\Wipro\CSharp\CountSubmatrices\CountSubmatrices\obj\Debug\net8.0\CountSubmatrices.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\prana\Desktop\Wipro\CSharp\CountSubmatrices\CountSubmatrices\obj\Debug\net8.0\CountSubmatrices.AssemblyInfoInputs.cache
+C:\Users\prana\Desktop\Wipro\CSharp\CountSubmatrices\CountSubmatrices\obj\Debug\net8.0\CountSubmatrices.AssemblyInfo.cs
+C:\Users\prana\Desktop\Wipro\CSharp\CountSubmatrices\CountSubmatrices\obj\Debug\net8.0\CountSubmatrices.csproj.CoreCompileInputs.cache
+C:\Users\prana\Desktop\Wipro\CSharp\CountSubmatrices\CountSubmatrices\obj\Debug\net8.0\CountSubmatrices.sourcelink.json
+C:\Users\prana\Desktop\Wipro\CSharp\CountSubmatrices\CountSubmatrices\obj\Debug\net8.0\CountSubmatrices.dll
+C:\Users\prana\Desktop\Wipro\CSharp\CountSubmatrices\CountSubmatrices\obj\Debug\net8.0\refint\CountSubmatrices.dll
+C:\Users\prana\Desktop\Wipro\CSharp\CountSubmatrices\CountSubmatrices\obj\Debug\net8.0\CountSubmatrices.pdb
+C:\Users\prana\Desktop\Wipro\CSharp\CountSubmatrices\CountSubmatrices\obj\Debug\net8.0\CountSubmatrices.genruntimeconfig.cache
+C:\Users\prana\Desktop\Wipro\CSharp\CountSubmatrices\CountSubmatrices\obj\Debug\net8.0\ref\CountSubmatrices.dll
