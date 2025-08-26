@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\prana\\Desktop\\Wipro\\CSharp\\CSharpExpressions\\CSharpExpressions.csproj": {}
+    "C:\\Users\\prana\\Desktop\\Wipro\\CSharp\\BankingSystem\\BankingSystem\\BankingSystem.csproj": {}
   },
   "projects": {
-    "C:\\Users\\prana\\Desktop\\Wipro\\CSharp\\CSharpExpressions\\CSharpExpressions.csproj": {
+    "C:\\Users\\prana\\Desktop\\Wipro\\CSharp\\BankingSystem\\BankingSystem\\BankingSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\prana\\Desktop\\Wipro\\CSharp\\CSharpExpressions\\CSharpExpressions.csproj",
-        "projectName": "CSharpExpressions",
-        "projectPath": "C:\\Users\\prana\\Desktop\\Wipro\\CSharp\\CSharpExpressions\\CSharpExpressions.csproj",
+        "projectUniqueName": "C:\\Users\\prana\\Desktop\\Wipro\\CSharp\\BankingSystem\\BankingSystem\\BankingSystem.csproj",
+        "projectName": "BankingSystem",
+        "projectPath": "C:\\Users\\prana\\Desktop\\Wipro\\CSharp\\BankingSystem\\BankingSystem\\BankingSystem.csproj",
         "packagesPath": "C:\\Users\\prana\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\prana\\Desktop\\Wipro\\CSharp\\CSharpExpressions\\obj\\",
+        "outputPath": "C:\\Users\\prana\\Desktop\\Wipro\\CSharp\\BankingSystem\\BankingSystem\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

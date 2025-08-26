@@ -5,8 +5,21 @@ namespace CSharpExpressions
 {
     internal class Program
     {
+        delegate void mydel(int a,int b);
+        private void add(int a,int b)
+        {
+            Console.WriteLine(a+b);
+        }
+        private void sub(int a,int b)
+        { Console.WriteLine(a-b); }
         static void Main(string[] args)
         {
+            Program p = new Program();
+            mydel dd = new mydel(p.add);
+            dd += p.sub;
+            dd(2,3);
+ ;
+
             Console.WriteLine("=== C# Expressions Complete Guide ===\n");
 
             List<int> numbers = new List<int> { 1, 2, 3, 4, 5 };
