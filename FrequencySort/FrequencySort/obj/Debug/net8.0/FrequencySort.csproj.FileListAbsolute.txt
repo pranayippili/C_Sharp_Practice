@@ -1,0 +1,15 @@
+C:\Users\prana\Desktop\Wipro\CSharp\FrequencySort\FrequencySort\bin\Debug\net8.0\FrequencySort.exe
+C:\Users\prana\Desktop\Wipro\CSharp\FrequencySort\FrequencySort\bin\Debug\net8.0\FrequencySort.deps.json
+C:\Users\prana\Desktop\Wipro\CSharp\FrequencySort\FrequencySort\bin\Debug\net8.0\FrequencySort.runtimeconfig.json
+C:\Users\prana\Desktop\Wipro\CSharp\FrequencySort\FrequencySort\bin\Debug\net8.0\FrequencySort.dll
+C:\Users\prana\Desktop\Wipro\CSharp\FrequencySort\FrequencySort\bin\Debug\net8.0\FrequencySort.pdb
+C:\Users\prana\Desktop\Wipro\CSharp\FrequencySort\FrequencySort\obj\Debug\net8.0\FrequencySort.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\prana\Desktop\Wipro\CSharp\FrequencySort\FrequencySort\obj\Debug\net8.0\FrequencySort.AssemblyInfoInputs.cache
+C:\Users\prana\Desktop\Wipro\CSharp\FrequencySort\FrequencySort\obj\Debug\net8.0\FrequencySort.AssemblyInfo.cs
+C:\Users\prana\Desktop\Wipro\CSharp\FrequencySort\FrequencySort\obj\Debug\net8.0\FrequencySort.csproj.CoreCompileInputs.cache
+C:\Users\prana\Desktop\Wipro\CSharp\FrequencySort\FrequencySort\obj\Debug\net8.0\FrequencySort.sourcelink.json
+C:\Users\prana\Desktop\Wipro\CSharp\FrequencySort\FrequencySort\obj\Debug\net8.0\FrequencySort.dll
+C:\Users\prana\Desktop\Wipro\CSharp\FrequencySort\FrequencySort\obj\Debug\net8.0\refint\FrequencySort.dll
+C:\Users\prana\Desktop\Wipro\CSharp\FrequencySort\FrequencySort\obj\Debug\net8.0\FrequencySort.pdb
+C:\Users\prana\Desktop\Wipro\CSharp\FrequencySort\FrequencySort\obj\Debug\net8.0\FrequencySort.genruntimeconfig.cache
+C:\Users\prana\Desktop\Wipro\CSharp\FrequencySort\FrequencySort\obj\Debug\net8.0\ref\FrequencySort.dll
