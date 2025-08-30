@@ -1,0 +1,15 @@
+C:\Users\prana\Desktop\Wipro\CSharp\SortByFrequency\SortByFrequency\bin\Debug\net8.0\SortByFrequency.exe
+C:\Users\prana\Desktop\Wipro\CSharp\SortByFrequency\SortByFrequency\bin\Debug\net8.0\SortByFrequency.deps.json
+C:\Users\prana\Desktop\Wipro\CSharp\SortByFrequency\SortByFrequency\bin\Debug\net8.0\SortByFrequency.runtimeconfig.json
+C:\Users\prana\Desktop\Wipro\CSharp\SortByFrequency\SortByFrequency\bin\Debug\net8.0\SortByFrequency.dll
+C:\Users\prana\Desktop\Wipro\CSharp\SortByFrequency\SortByFrequency\bin\Debug\net8.0\SortByFrequency.pdb
+C:\Users\prana\Desktop\Wipro\CSharp\SortByFrequency\SortByFrequency\obj\Debug\net8.0\SortByFrequency.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\prana\Desktop\Wipro\CSharp\SortByFrequency\SortByFrequency\obj\Debug\net8.0\SortByFrequency.AssemblyInfoInputs.cache
+C:\Users\prana\Desktop\Wipro\CSharp\SortByFrequency\SortByFrequency\obj\Debug\net8.0\SortByFrequency.AssemblyInfo.cs
+C:\Users\prana\Desktop\Wipro\CSharp\SortByFrequency\SortByFrequency\obj\Debug\net8.0\SortByFrequency.csproj.CoreCompileInputs.cache
+C:\Users\prana\Desktop\Wipro\CSharp\SortByFrequency\SortByFrequency\obj\Debug\net8.0\SortByFrequency.sourcelink.json
+C:\Users\prana\Desktop\Wipro\CSharp\SortByFrequency\SortByFrequency\obj\Debug\net8.0\SortByFrequency.dll
+C:\Users\prana\Desktop\Wipro\CSharp\SortByFrequency\SortByFrequency\obj\Debug\net8.0\refint\SortByFrequency.dll
+C:\Users\prana\Desktop\Wipro\CSharp\SortByFrequency\SortByFrequency\obj\Debug\net8.0\SortByFrequency.pdb
+C:\Users\prana\Desktop\Wipro\CSharp\SortByFrequency\SortByFrequency\obj\Debug\net8.0\SortByFrequency.genruntimeconfig.cache
+C:\Users\prana\Desktop\Wipro\CSharp\SortByFrequency\SortByFrequency\obj\Debug\net8.0\ref\SortByFrequency.dll
