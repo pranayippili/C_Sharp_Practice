@@ -1,0 +1,15 @@
+C:\Users\prana\Desktop\Wipro\CSharp\CanSeePersonsCount\CanSeePersonsCount\bin\Debug\net8.0\CanSeePersonsCount.exe
+C:\Users\prana\Desktop\Wipro\CSharp\CanSeePersonsCount\CanSeePersonsCount\bin\Debug\net8.0\CanSeePersonsCount.deps.json
+C:\Users\prana\Desktop\Wipro\CSharp\CanSeePersonsCount\CanSeePersonsCount\bin\Debug\net8.0\CanSeePersonsCount.runtimeconfig.json
+C:\Users\prana\Desktop\Wipro\CSharp\CanSeePersonsCount\CanSeePersonsCount\bin\Debug\net8.0\CanSeePersonsCount.dll
+C:\Users\prana\Desktop\Wipro\CSharp\CanSeePersonsCount\CanSeePersonsCount\bin\Debug\net8.0\CanSeePersonsCount.pdb
+C:\Users\prana\Desktop\Wipro\CSharp\CanSeePersonsCount\CanSeePersonsCount\obj\Debug\net8.0\CanSeePersonsCount.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\prana\Desktop\Wipro\CSharp\CanSeePersonsCount\CanSeePersonsCount\obj\Debug\net8.0\CanSeePersonsCount.AssemblyInfoInputs.cache
+C:\Users\prana\Desktop\Wipro\CSharp\CanSeePersonsCount\CanSeePersonsCount\obj\Debug\net8.0\CanSeePersonsCount.AssemblyInfo.cs
+C:\Users\prana\Desktop\Wipro\CSharp\CanSeePersonsCount\CanSeePersonsCount\obj\Debug\net8.0\CanSeePersonsCount.csproj.CoreCompileInputs.cache
+C:\Users\prana\Desktop\Wipro\CSharp\CanSeePersonsCount\CanSeePersonsCount\obj\Debug\net8.0\CanSeePersonsCount.sourcelink.json
+C:\Users\prana\Desktop\Wipro\CSharp\CanSeePersonsCount\CanSeePersonsCount\obj\Debug\net8.0\CanSeePersonsCount.dll
+C:\Users\prana\Desktop\Wipro\CSharp\CanSeePersonsCount\CanSeePersonsCount\obj\Debug\net8.0\refint\CanSeePersonsCount.dll
+C:\Users\prana\Desktop\Wipro\CSharp\CanSeePersonsCount\CanSeePersonsCount\obj\Debug\net8.0\CanSeePersonsCount.pdb
+C:\Users\prana\Desktop\Wipro\CSharp\CanSeePersonsCount\CanSeePersonsCount\obj\Debug\net8.0\CanSeePersonsCount.genruntimeconfig.cache
+C:\Users\prana\Desktop\Wipro\CSharp\CanSeePersonsCount\CanSeePersonsCount\obj\Debug\net8.0\ref\CanSeePersonsCount.dll
