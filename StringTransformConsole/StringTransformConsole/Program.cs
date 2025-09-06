@@ -31,6 +31,7 @@ namespace StringTransformConsole
 				}
 			}
 
+
 			// We've completed the first transformation, so decrement k
 			k--;
 
