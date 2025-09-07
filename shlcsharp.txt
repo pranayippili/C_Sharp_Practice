@@ -1,0 +1,414 @@
+Q.1 convert binary to decimal 
+
+  public static int ConvertBinaryToDecimal(string binaryInput)
+    {
+        int answer = 0;
+        int baseValue = 1;
+
+        for (int i = binaryInput.Length - 1; i >= 0; i--)
+        {
+            if (binaryInput[i] == '1')
+            {
+                answer += baseValue;
+            }
+            baseValue *= 2;
+        }
+
+        return answer;
+    }
+
+Q.2  in given array we will have to print even in start and odd in end in same order  i/p { 2,3,4,5,6 } op = { 2,4,6,3,5}
+
+   public static int[] ReorderEvenOdd(int[] inputArray)
+    {
+        int answer = 0; 
+
+        List<int> evens = new List<int>();
+        List<int> odds = new List<int>();
+
+        foreach (int num in inputArray)
+        {
+            if (num % 2 == 0)
+                evens.Add(num);
+            else
+                odds.Add(num);
+        }
+
+        evens.AddRange(odds); 
+        return evens.ToArray();
+    }
+
+
+Console.Write(string.Join(",", result)); 
+
+
+Q.3  in same format solve problem where you reverse the string and count the position that remains unchanged ip abcaabcd op 2
+
+
+public static int CountUnchangedPositions(string input)
+    {
+        int answer = 0; // Start with answer = 0
+
+        char[] reversed = input.ToCharArray();
+        Array.Reverse(reversed);
+
+        for (int i = 0; i < input.Length; i++)
+        {
+            if (input[i] == reversed[i])
+            {
+                answer++;
+            }
+        }
+
+        return answer;
+    }
+
+Q.4  multiplication of all digits in a num ( given order id as integer) ip : 1234 op :24
+
+    public static int MultiplyDigits(int number)
+    {
+        int answer = 1; 
+
+        while (number > 0)
+        {
+            int digit = number % 10;
+            answer *= digit;
+            number /= 10;
+        }
+
+        return answer;
+    }
+
+
+Q.5  print count of unique charachters count from a string exanple :"abaacdefah " op : 6
+
+
+public static int CountUniqueCharacters(string input)
+    {
+        int answer = 0; 
+
+        Dictionary<char, int> charFrequency = new Dictionary<char, int>();
+
+        foreach (char c in input)
+        {
+            if (charFrequency.ContainsKey(c))
+                charFrequency[c]++;
+            else
+                charFrequency[c] = 1;
+
+        }
+
+        foreach (var pair in charFrequency)
+        {
+            if (pair.Value == 1)
+                answer++;
+        }
+
+        return answer;
+    }
+
+Q.6 count spaces count in a string ip "hello ramana how are you " op 4
+
+    public static int CountSpaces(string input)
+{
+        int answer = 0; 
+
+        foreach (char c in input)
+        {
+            if (c == ' ')
+            {
+                answer++;
+            }
+        }
+
+        return answer;
+    }
+
+Q.7 next question is  n th lowest element in the array ip {4,2,1,3,5} op =3 3rd smallest
+
+ public static int FindNthSmallest(int[] array, int n)
+    {
+        int answer = 0;
+
+        Array.Sort(array);
+        answer = array[n - 1]; 
+
+        return answer;
+    }
+
+Q.8 wap to sum of odd digit and print that sum ip 1234567 op =16
+
+ public static int SumOddDigits(int number)
+    {
+        int answer = 0; 
+
+        while (number > 0)
+        {
+            int digit = number % 10;
+            if (digit % 2 != 0)
+            {
+                answer += digit;
+            }
+            number /= 10;
+        }
+
+        return answer;
+    }
+
+Q.9 count of special chars ip : A@#$%bhJ op :4
+
+ public static int CountSpecialChars(string input)
+    {
+        int answer = 0;
+        foreach (char c in input)
+        {
+            if (!char.IsLetterOrDigit(c))
+                answer++;
+        }
+        return answer;
+    }
+
+Q.10 count of negative numbers 
+
+  public static int CountNegatives(int[] array)
+    {
+        int answer = 0;
+        foreach (int num in array)
+        {
+            if (num < 0)
+                answer++;
+        }
+        return answer;
+    }
+
+Q.11 input is a random string again give the any letter o/p the letter how many times the letter is repeated ip haveagoodday letter is a op :3
+
+
+    public static int CountLetter(string input, char letter)
+    {
+        int answer = 0;
+        foreach (char c in input)
+        {
+            if (c == letter)
+                answer++;
+        }
+        return answer;
+    }
+
+
+Q.12 input random 2 numbers in between  two nums print the sum of prime numbers   ip 11, 19 op 13+17 = 30
+
+ public static int SumPrimesBetween(int start, int end)
+    {
+        int answer = 0;
+        for (int i = start + 1; i < end; i++)
+        {
+            if (IsPrime(i))
+                answer += i;
+        }
+        return answer;
+    }
+
+    public static bool IsPrime(int num)
+    {
+        if (num < 2) return false;
+        for (int i = 2; i <= Math.Sqrt(num); i++)
+        {
+            if (num % i == 0)
+                return false;
+        }
+        return true;
+    }
+
+
+Q.13.calculate the product discount the discount is sum of odd numbers of cost ip 357 op 15  (3+5+7)  , ip123 op =4  (1+3)
+
+public static int CalculateDiscount(int cost)
+    {
+        int answer = 0;
+        while (cost > 0)
+        {
+            int digit = cost % 10;
+            if (digit % 2 != 0)
+                answer += digit;
+            cost /= 10;
+        }
+        return answer;
+    } 
+
+Q.14 .You have to take three integer inputs from user: example input1=2,input2=4,input3=5 ------>what you have to do is you have to add input2 to inpu1 for input3 times;   ----->ex : 2+4+4+4+4+4
+
+
+public static int AddRepeatedly(int input1, int input2, int input3)
+    {
+        int answer = input1;
+        for (int i = 0; i < input3; i++)
+        {
+            answer += input2;
+        }
+        return answer;
+    }
+
+Q.15  A integer value will be given and a digit too in input, find how many times that digit got repeated in that number.ip :n= 27676676 d=6 o/p - 4 (as 6 repeated 4 times) 
+
+public static int CountDigit(int number, int digit)
+    {
+        int answer = 0;
+        while (number > 0)
+        {
+            int current = number % 10;
+            if (current == digit)
+                answer++;
+            number /= 10;
+        }
+        return answer;
+    }
+
+Q.16 . Given Line-1: array size, Line-2: Integers, Find the position of maximum number  I/P: 4, [3, 6, -1, 4]  O/P: 1
+
+
+    public static int FindMaxPosition(int[] array)
+    {
+        int answer = 0;
+        int max = array[0];
+        for (int i = 1; i < array.Length; i++)
+        {
+            if (array[i] > max)
+            {
+                max = array[i];
+                answer = i;
+            }
+        }
+        return answer;
+    }
+
+Q.17 . Given a string containing characters([a-z], [A-Z]) seperated by a space, print total no. of consonants I/P: a b E U r L, O/P: 3
+
+
+ public static int CountConsonants(string input)
+    {
+        int answer = 0;
+        string[] letters = input.Split(' ');
+        foreach (string ch in letters)
+        {
+            char c = char.ToLower(ch[0]);
+            if (char.IsLetter(c) && !"aeiou".Contains(c))
+                answer++;
+        }
+        return answer;
+    }
+
+
+Q.18 . Line1: no. of room temperatures, next each line contains a Integer. We need to print sum of all values  I/P: 7, -10, 20, -23, 22, 10, 41. O/P: 60
+
+
+  public static int SumTemperatures(int[] temps)
+    {
+        int answer = 0;
+        foreach (int temp in temps)
+        {
+            answer += temp;
+        }
+        return answer;
+    }
+
+
+Q.19 WAP to find max value of list  i/p = "123 345 234 222 "  o/p=345, like this multiple list need to take as input.
+
+ public static int FindMax(string input)
+    {
+        string[] parts = input.Split(' ');
+        int answer = int.Parse(parts[0]);
+        foreach (string part in parts)
+        {
+            int num = int.Parse(part);
+            if (num > answer)
+                answer = num;
+        }
+        return answer;
+    }
+
+Q.20.check whether the number is perfect square 
+
+  public static bool IsPerfectSquare(int number)
+    {
+        int answer = (int)Math.Sqrt(number);
+        return answer * answer == number;
+    }
+
+Q.21.  there will be one character and one key   lets suppose character is a and key is 3 than d will be printed if key is moreafter z than it should again repeat and give lets suppose char is  x and key is 10  than print i
+
+public static char ShiftChar(char ch, int key)
+    {
+        int answer = 0;
+        if (char.IsLower(ch))
+        {
+            answer = ((ch - 'a' + key) % 26) + 'a';
+        }
+        else if (char.IsUpper(ch))
+        {
+            answer = ((ch - 'A' + key) % 26) + 'A';
+        }
+        return (char)answer;
+    }
+
+
+Q.22 find max digit from interger ip 1354657 op 7
+
+public static int FindMaxDigit(int number)
+    {
+        int answer = 0;
+        while (number > 0)
+        {
+            int digit = number % 10;
+            if (digit > answer)
+                answer = digit;
+            number /= 10;
+        }
+        return answer;
+    }
+
+Q.23  given integer and the digit which repeat more time make them as security key ip 122346542 op 2
+
+public static int FindMostFrequentDigit(int number)
+    {
+        int[] freq = new int[10];
+        int answer = 0;
+
+        while (number > 0)
+        {
+            int digit = number % 10;
+            freq[digit]++;
+            number /= 10;
+        }
+
+        int maxFreq = 0;
+        for (int i = 0; i < 10; i++)
+        {
+            if (freq[i] > maxFreq)
+            {
+                maxFreq = freq[i];
+                answer = i;
+            }
+        }
+
+        return answer;
+    }
+
+
+Q.24.vowels count 
+
+  public static int CountVowels(string input)
+    {
+        int answer = 0;
+        foreach (char c in input)
+        {
+            char ch = char.ToLower(c);
+            if ("aeiou".Contains(ch))
+                answer++;
+        }
+        return answer;
+    }
+
+
+
