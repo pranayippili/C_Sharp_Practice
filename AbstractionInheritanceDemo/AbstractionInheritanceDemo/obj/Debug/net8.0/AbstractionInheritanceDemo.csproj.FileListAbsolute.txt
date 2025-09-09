@@ -1,0 +1,15 @@
+C:\Users\prana\Desktop\Wipro\CSharp\AbstractionInheritanceDemo\AbstractionInheritanceDemo\bin\Debug\net8.0\AbstractionInheritanceDemo.exe
+C:\Users\prana\Desktop\Wipro\CSharp\AbstractionInheritanceDemo\AbstractionInheritanceDemo\bin\Debug\net8.0\AbstractionInheritanceDemo.deps.json
+C:\Users\prana\Desktop\Wipro\CSharp\AbstractionInheritanceDemo\AbstractionInheritanceDemo\bin\Debug\net8.0\AbstractionInheritanceDemo.runtimeconfig.json
+C:\Users\prana\Desktop\Wipro\CSharp\AbstractionInheritanceDemo\AbstractionInheritanceDemo\bin\Debug\net8.0\AbstractionInheritanceDemo.dll
+C:\Users\prana\Desktop\Wipro\CSharp\AbstractionInheritanceDemo\AbstractionInheritanceDemo\bin\Debug\net8.0\AbstractionInheritanceDemo.pdb
+C:\Users\prana\Desktop\Wipro\CSharp\AbstractionInheritanceDemo\AbstractionInheritanceDemo\obj\Debug\net8.0\AbstractionInheritanceDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\prana\Desktop\Wipro\CSharp\AbstractionInheritanceDemo\AbstractionInheritanceDemo\obj\Debug\net8.0\AbstractionInheritanceDemo.AssemblyInfoInputs.cache
+C:\Users\prana\Desktop\Wipro\CSharp\AbstractionInheritanceDemo\AbstractionInheritanceDemo\obj\Debug\net8.0\AbstractionInheritanceDemo.AssemblyInfo.cs
+C:\Users\prana\Desktop\Wipro\CSharp\AbstractionInheritanceDemo\AbstractionInheritanceDemo\obj\Debug\net8.0\AbstractionInheritanceDemo.csproj.CoreCompileInputs.cache
+C:\Users\prana\Desktop\Wipro\CSharp\AbstractionInheritanceDemo\AbstractionInheritanceDemo\obj\Debug\net8.0\AbstractionInheritanceDemo.sourcelink.json
+C:\Users\prana\Desktop\Wipro\CSharp\AbstractionInheritanceDemo\AbstractionInheritanceDemo\obj\Debug\net8.0\AbstractionInheritanceDemo.dll
+C:\Users\prana\Desktop\Wipro\CSharp\AbstractionInheritanceDemo\AbstractionInheritanceDemo\obj\Debug\net8.0\refint\AbstractionInheritanceDemo.dll
+C:\Users\prana\Desktop\Wipro\CSharp\AbstractionInheritanceDemo\AbstractionInheritanceDemo\obj\Debug\net8.0\AbstractionInheritanceDemo.pdb
+C:\Users\prana\Desktop\Wipro\CSharp\AbstractionInheritanceDemo\AbstractionInheritanceDemo\obj\Debug\net8.0\AbstractionInheritanceDemo.genruntimeconfig.cache
+C:\Users\prana\Desktop\Wipro\CSharp\AbstractionInheritanceDemo\AbstractionInheritanceDemo\obj\Debug\net8.0\ref\AbstractionInheritanceDemo.dll

@@ -1,0 +1,55 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\prana\\Desktop\\Wipro\\CSharp\\AbstractionInheritanceDemo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{15ABCC48-46D9-4A75-998F-11763B6117A6}|AbstractionInheritanceDemo\\AbstractionInheritanceDemo.csproj|c:\\users\\prana\\desktop\\wipro\\csharp\\abstractioninheritancedemo\\abstractioninheritancedemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15ABCC48-46D9-4A75-998F-11763B6117A6}|AbstractionInheritanceDemo\\AbstractionInheritanceDemo.csproj|solutionrelative:abstractioninheritancedemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\prana\\Desktop\\Wipro\\CSharp\\AbstractionInheritanceDemo\\AbstractionInheritanceDemo\\Program.cs",
+              "RelativeDocumentMoniker": "AbstractionInheritanceDemo\\Program.cs",
+              "ToolTip": "C:\\Users\\prana\\Desktop\\Wipro\\CSharp\\AbstractionInheritanceDemo\\AbstractionInheritanceDemo\\Program.cs",
+              "RelativeToolTip": "AbstractionInheritanceDemo\\Program.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAmwDgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T18:11:53.038Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1292,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
