@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\prana\\Desktop\\Wipro\\CSharp\\CSharpConceptsLab\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{586473AE-E450-464B-8276-BA7D9EC5EDAE}|CSharpConceptsLab\\CSharpConceptsLab.csproj|c:\\users\\prana\\desktop\\wipro\\csharp\\csharpconceptslab\\csharpconceptslab\\csharpconceptslab.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{586473AE-E450-464B-8276-BA7D9EC5EDAE}|CSharpConceptsLab\\CSharpConceptsLab.csproj|solutionrelative:csharpconceptslab\\csharpconceptslab.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{586473AE-E450-464B-8276-BA7D9EC5EDAE}|CSharpConceptsLab\\CSharpConceptsLab.csproj|c:\\users\\prana\\desktop\\wipro\\csharp\\csharpconceptslab\\csharpconceptslab\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{586473AE-E450-464B-8276-BA7D9EC5EDAE}|CSharpConceptsLab\\CSharpConceptsLab.csproj|solutionrelative:csharpconceptslab\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -23,12 +27,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CSharpConceptsLab",
+              "DocumentMoniker": "C:\\Users\\prana\\Desktop\\Wipro\\CSharp\\CSharpConceptsLab\\CSharpConceptsLab\\CSharpConceptsLab.csproj",
+              "RelativeDocumentMoniker": "CSharpConceptsLab\\CSharpConceptsLab.csproj",
+              "ToolTip": "C:\\Users\\prana\\Desktop\\Wipro\\CSharp\\CSharpConceptsLab\\CSharpConceptsLab\\CSharpConceptsLab.csproj",
+              "RelativeToolTip": "CSharpConceptsLab\\CSharpConceptsLab.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-17T18:22:42.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\prana\\Desktop\\Wipro\\CSharp\\CSharpConceptsLab\\CSharpConceptsLab\\Program.cs",
               "RelativeDocumentMoniker": "CSharpConceptsLab\\Program.cs",
               "ToolTip": "C:\\Users\\prana\\Desktop\\Wipro\\CSharp\\CSharpConceptsLab\\CSharpConceptsLab\\Program.cs",
               "RelativeToolTip": "CSharpConceptsLab\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAA/wKcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-16T17:36:53.615Z",
               "EditorCaption": ""
