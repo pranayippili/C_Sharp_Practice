@@ -83,7 +83,6 @@ namespace TypeCastingDemo
 			{
 				Console.WriteLine("Invalid cast: Animal cannot be cast to Dog");
 			}
-
 			Console.ReadLine();
 		}
 	}
