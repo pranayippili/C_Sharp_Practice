@@ -63,8 +63,6 @@
 		static void Main()
 		{
 			int[] x = { 5, 4, 6, 5, 4, 3 };
-			//int[] y = {8,6,7,6,8,6};
-			//int[] z = {1,2,3,4,5};
 			int[] output = SortByFrequency(x);
 			Console.WriteLine(string.Join(" ,", output));
 		}
