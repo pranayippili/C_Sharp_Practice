@@ -6,6 +6,7 @@ namespace ThreeSumClosest
 	{
 		public int ThreeSumClosest(int[] nums, int target)
 		{
+
 			// Sort the array first
 			Array.Sort(nums);
 
