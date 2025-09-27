@@ -58,6 +58,7 @@ namespace ThreeSumClosestApp
 			Console.WriteLine("Input: nums = [{0}], target = {1}", string.Join(", ", nums), target);
 			Console.WriteLine("Closest sum: " + result);
 
+
 			// Wait for keypress before closing
 			Console.WriteLine("\nPress any key to exit...");
 			Console.ReadKey();
