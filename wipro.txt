@@ -1,0 +1,42 @@
+
+meeting link:
+
+https://teams.microsoft.com/l/meetup-join/19%3ameeting_NmQ4OWJkZjEtODBiMi00NTU2LTg3YTctYWYxZTg2MTUzZjIx%40thread.v2/0?
+context=%7b%22Tid%22%3a%226565c732-1653-4ffe-b9d3-80a4f1c0c25d%22%2c%22Oid%22%3a%2260d2fa75-90f1-4905-9b53-a7082354b917%22%7d
+
+
+Support:
+
+https://app.smartsheet.com/b/form/0d4e989091fa4983a17d44e7fe1828c5
+
+classid: 24NAG2043
+
+references:
+
+code project 
+dotnetspider
+C#corner
+medium
+msdocs
+
+
+LMS
+
+URL - https://digital.rpsconsulting.in
+User Mail ID : pranayippili@gmail.com
+Password : Pranay@123456
+ 
+
+day-1 
+
+
+https://github.com/Anamika-s/DotNet-React
+
+day-2
+
+https://github.com/Anamika-s/Solution-Day2-Demos.git
+
+https://www.simplilearn.com/tutorials/c-sharp-tutorial/collections-in-c-sharp
+
+
+
