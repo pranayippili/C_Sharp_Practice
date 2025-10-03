@@ -1,0 +1,47 @@
+Scaffold-DbContext "Server=DESKTOP-2JJG4AV\SQLEXPRESS;Database=WiproSampleDb;Trusted_Connection=True;Encrypt=false" Microsoft.EntityFrameworkCore.SqlServer -o Models
+
+Scaffold-DbContext "Server=DESKTOP-2JJG4AV\SQLEXPRESS;Database=WiproSampleDb;Trusted_Connection=True;Encrypt=false" Microsoft.EntityFrameworkCore.SqlServer -o Models -forced
+
+//Entity frameworkcore - ORM - object Relation Mapping 
+//object - instance of a class
+//Relation - back end table of a db
+//map a table as a class or a class as a table
+ 
+//class Course //entity class - collection of entity class - context(front end db)
+//{
+//    public int cid { get; set; }
+//    public string cname { get; set; }
+//    public float fees { get; set; }
+//}
+ 
+//two approaches - 1. DB first approach 2. Code first approach
+//3 nuget packages to be installed - EFcore, EFCore SQL, EFCore Tools
+
+
+WiproSampleDbContext context=new WiproSampleDbContext();
+foreach(var item in context.Courses)
+{
+     Console.WriteLine(item.Cid+" "+item.Cname+" "+item.Fees);
+}
+
+
+builder.Services.AddDbContext<WiproSampleDbContext>(options =>
+      options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+"ConnectionStrings": {
+  "DefaultConnection": "Server=(localdb)\\MSSQLLocalDB;Database=WiproSampleDb;Integrated Security=true;"
+},
+
+
+<ItemGroup>
+  <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.7" />
+  <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.7" />
+  <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.7">
+    <PrivateAssets>all</PrivateAssets>
+    <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+  </PackageReference>
+</ItemGroup>
+
+SQL
+
+scaffold-Dbcontext "server=127.0.0.1;port=3306;uid=root;pwd=9949848621;database=healthcare" MySql.EntityFrameworkcore -o Model
