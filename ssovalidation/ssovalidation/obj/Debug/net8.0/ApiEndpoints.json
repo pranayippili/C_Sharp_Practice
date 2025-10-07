@@ -1,6 +1,16 @@
 [
   {
     "ContainingType": "ssovalidation.Controllers.TestController",
+    "Method": "Get",
+    "RelativePath": "api/Test",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ssovalidation.Controllers.TestController",
     "Method": "Ping",
     "RelativePath": "api/Test/ping",
     "HttpMethod": "GET",

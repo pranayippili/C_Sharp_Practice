@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ssovalidation")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3ebb3921021e68285bd62eb6d64b3fc470a7256f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1722b5f8be97a64e1a1b261264caa67a0a3027b1")]
 [assembly: System.Reflection.AssemblyProductAttribute("ssovalidation")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ssovalidation")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

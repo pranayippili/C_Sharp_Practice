@@ -35,5 +35,12 @@ namespace ssovalidation.Controllers
 		{
 			return Ok(new { Message = "API is running and does not require auth." });
 		}
+
+		[HttpGet]
+		[Authorize]
+		public IActionResult Get()
+		{
+			return Ok(new { message = "Token is valid. Hello, Pranay!" });
+		}
 	}
 }
